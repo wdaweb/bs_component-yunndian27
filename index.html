@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HW|BS_component</title>
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <style>
+    .fontSize {
+      font-size: 1rem;
+    }
+
+    .bgGradientDark {
+      background: linear-gradient(#333, #000);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <!-- navbar -->
+    <div class="header fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link" href="#">Link1 <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">Link2</a>
+            <a class="nav-link" href="#">Link3</a>
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Link4</a>
+            <a class="nav-link" href="#">Link5</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- content -->
+    <div class="content mb-5">
+      <!-- 01. Carousel -------------------------------------------------->
+      <div id="carouselExampleIndicators" class="carousel slide mb-5" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://picsum.photos/1920/900/?random=1" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="https://picsum.photos/1920/900/?random=2" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="https://picsum.photos/1920/900/?random=3" class="d-block w-100">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!-- 02. Card -------------------------------------------------->
+      <div class="container mb-lg-5 mb-5">
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <div class="card">
+              <img src="https://picsum.photos/600/400/?random=1"" class=" card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card">
+              <img src="https://picsum.photos/600/400/?random=2"" class=" card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Consequuntur maiores
+                  incidunt.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card">
+              <img src="https://picsum.photos/600/400/?random=3"" class=" card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam alias consectetur
+                  tenetur.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 03. Card -------------------------------------------------->
+      <div class="bigCard">
+        <div class="card border-0">
+          <div class="row no-gutters">
+            <div class="col-md-6">
+              <img class="img-fluid" src="https://picsum.photos/800/600/?random=1">
+            </div>
+            <div class="col-md-6 bg-light d-flex align-items-center">
+              <div class="card-body text-center">
+                <h2 class="card-title">Autumn Collection</h2>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, magnam hic
+                  quod
+                  voluptatibus laboriosam culpa dolore ab suscipit architecto minima debitis totam dolor dolorem,
+                  pariatur
+                  voluptatem fuga. Harum quisquam distinctio aperiam magni veritatis doloribus consectetur, sed
+                  laboriosam
+                  veniam quibusdam possimus fuga numquam! Enim voluptatum ad iusto architecto totam quis inventore.</p>
+                <button type="button" class="btn btn-success text-uppercase">view collection</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card border-0">
+          <div class="row no-gutters d-flex flex-md-nowrap">
+            <div class="col-md-6 order-md-2">
+              <img class="img-fluid" src="https://picsum.photos/800/600/?random=2">
+            </div>
+            <div class="col-md-6 bg-light order-md-1 d-flex align-items-center">
+              <div class="card-body text-center">
+                <h2 class="card-title">Autumn Collection</h2>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione vel et suscipit
+                  reiciendis quos eveniet placeat debitis quasi, numquam omnis, non sint animi nemo. Illo saepe possimus
+                  ea
+                  dolores placeat quisquam eaque tempore quos sequi exercitationem ipsam soluta libero sed iusto eum
+                  delectus, repellendus magnam?</p>
+                <button type="button" class="btn btn-success text-uppercase">view collection</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <div class="card-footer bgGradientDark">
+      <div class="container">
+        <div class="row mt-5 mb-3">
+          <div class="col-6 col-md-3">
+            <img class="rounded-circle" src="https://picsum.photos/150/150/?random=1">
+          </div>
+          <div class="col-6 col-md-3 text-capitalize text-white">
+            <p class="font-weight-bold h4">address</p>
+            <p class="font-weight-normal">1234 street name <br>city,AA 99999</p>
+          </div>
+          <div class="col-6 col-md-3 text-capitalize text-white">
+            <p class="font-weight-bold h4">links</p>
+            <div class="link_a d-flex flex-column">
+              <a href="#" class="font-weight-normal text-decoration-none text-white">website builder</a>
+              <a href="#" class="font-weight-normal text-decoration-none text-white">download for windows</a>
+              <a href="#" class="font-weight-normal text-decoration-none text-white">download for mac</a>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 text-capitalize text-white">
+            <p class="font-weight-bold h4">contacts</p>
+            <div class="contact_a mb-0 fontSize">
+              <p class="font-weight-normal mb-0">email:
+                <a href="mailto:support@mobirise.com" class="text-decoration-none text-white text-lowercase">
+                  support@mobirise.com
+                </a>
+              </p>
+              <p class="font-weight-normal mb-0">phone: +1(0)000 0000 0001</p>
+              <p class="font-weight-normal mb-0">fax: +1(0)000 0000 0002</p>
+            </div>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-12 text-center text-white">
+            &copy; Copyright 2021 Free footer templates - All Rights Reserved
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="./js/jquery-3.6.0.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
